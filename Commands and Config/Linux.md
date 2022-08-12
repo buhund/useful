@@ -31,7 +31,7 @@ First, uninstall Firefox Snap:
 `rm -r firefox`
 
 
-Make config files that block the snap package. Dunno which one is better, [1](https://www.debugpoint.com/remove-firefox-snap-ubuntu/) or [2](https://www.omgubuntu.co.uk/2022/04/how-to-install-firefox-deb-apt-ubuntu-22-04). I used both.
+Make config files that block the snap package. Dunno which one is better, [option one](https://www.debugpoint.com/remove-firefox-snap-ubuntu/) or [option two](https://www.omgubuntu.co.uk/2022/04/how-to-install-firefox-deb-apt-ubuntu-22-04). I used both.
 Paste the whole block as one; not as separate lines.
 
 ```
