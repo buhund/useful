@@ -17,6 +17,17 @@ Extract archive
 
 `sudo cp -r * /usr/lib/thunderbird`
 
+### Hold Thunderbird package from PPA
+
+Prevent apt from overwriting your manual updates
+
+```
+echo "Package: thunderbird
+Pin: release release o=LP-PPA-mozillateam
+Pin-Priority: -10" | sudo tee /etc/apt/preferences.d/manualThunderbird.pref
+```
+
+
 
 ## Firefox
 
@@ -35,16 +46,14 @@ Make config files that block the snap package. Dunno which one is better, [optio
 Paste the whole block as one; not as separate lines.
 
 ```
-echo '
-Package: firefox*
+echo "Package: firefox*
 Pin: release o=Ubuntu*
 Pin-Priority: -1
 ' | sudo tee /etc/apt/preferences.d/firefox-no-snap
 ```
 
 ```
-echo '
-Package: *
+echo "Package: *
 Pin: release o=LP-PPA-mozillateam
 Pin-Priority: 1001
 ' | sudo tee /etc/apt/preferences.d/mozilla-firefox
