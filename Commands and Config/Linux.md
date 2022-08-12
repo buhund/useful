@@ -46,14 +46,16 @@ Make config files that block the snap package. Dunno which one is better, [optio
 Paste the whole block as one; not as separate lines.
 
 ```
-echo "Package: firefox*
+echo '
+Package: firefox*
 Pin: release o=Ubuntu*
 Pin-Priority: -1
 ' | sudo tee /etc/apt/preferences.d/firefox-no-snap
 ```
 
 ```
-echo "Package: *
+echo '
+Package: *
 Pin: release o=LP-PPA-mozillateam
 Pin-Priority: 1001
 ' | sudo tee /etc/apt/preferences.d/mozilla-firefox
