@@ -1,6 +1,6 @@
-## Firefox
+# Firefox
 
-### Block Snap package
+## Block Snap package
 
 First, uninstall Firefox Snap:
 
