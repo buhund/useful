@@ -1,10 +1,6 @@
-# Apps under Linux
+# Thunderbird
 
-Useful commands and config for apps on Linux.
-
-## Thunderbird
-
-### Update Thunderbird from tarball:
+## Update Thunderbird from tarball:
 
 Extract archive
 
@@ -12,7 +8,7 @@ Extract archive
 
 `sudo cp -r * /usr/lib/thunderbird`
 
-### Hold Thunderbird package from PPA
+## Hold Thunderbird package from PPA
 
 Prevent apt from overwriting your manual updates
 
