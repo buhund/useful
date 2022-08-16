@@ -20,6 +20,7 @@ Package: firefox*
 Pin: release o=Ubuntu*
 Pin-Priority: -1
 ' | sudo tee /etc/apt/preferences.d/firefox-no-snap
+```
 
 ```
 echo '
