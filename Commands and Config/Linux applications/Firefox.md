@@ -39,3 +39,12 @@ Install Firefox:
 `sudo apt update`
 
 `sudo apt install firefox`
+
+
+## KDE file picker
+
+In about:config, search for
+
+`widget.use-xdg-desktop-portal.file-picker`
+
+Change value from 2 (default) to 1.
