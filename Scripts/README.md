@@ -1,5 +1,10 @@
 # Scripts for doing useful stuff
 
+**Index**
+
+- [thunderbird-tar-install.sh](thunderbird-tar-install.sh)
+
+
 
 ## Installers
 
