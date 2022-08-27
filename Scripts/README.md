@@ -2,7 +2,7 @@
 
 **Index**
 
-- [thunderbird-tar-install.sh](thunderbird-tar-install.sh)
+- [thunderbird-tar-install.sh](https://github.com/iverik-no/Nyttig/blob/main/Scripts/README.md#thunderbird-tar-installsh)
 
 
 
