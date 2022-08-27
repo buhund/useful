@@ -3,7 +3,7 @@
 
 ## Installers
 
-### thunderbird-tar-install.sh
+### [thunderbird-tar-install.sh](https://github.com/iverik-no/Nyttig/blob/main/Scripts/thunderbird-tar-install.sh)
 
 1. Extracts content of a thunderbird* tar archive to a new directory thunderbird
 2. cd to thunderbird
