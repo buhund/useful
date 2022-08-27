@@ -8,3 +8,10 @@
 # Nyttig
 
 Useful stuff?
+
+Index
+
+
+- Commands and Config
+- Scripts
+- blob (Fluff)
